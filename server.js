@@ -91,10 +91,6 @@ const mainMenu = () => {
                     addEmp();
                     break;
 
-                // case 'Remove Employee':
-                //     removeEmp();
-                //     break;
-
                 case 'Add Department':
                     addDept();
                     break;
@@ -102,10 +98,6 @@ const mainMenu = () => {
                 case 'Update Employee Role':
                     updateRole();
                     break;
-
-                // case 'Update Employee Manager':
-                //     updateManager();
-                //     break;
 
                 case 'View All Roles':
                     viewAllRoles();
@@ -115,9 +107,7 @@ const mainMenu = () => {
                     addRole();
                     break;
 
-                // case 'Remove Role':
-                //     removeRoles();
-                //     break;
+               
 
                 case 'Exit':
                     connection.end();
@@ -239,9 +229,7 @@ const viewAllRoles = async () => {
     mainMenu();
 };
 
-//* -------------------------------
-// * Add functions
-//* -------------------------------
+
 const addEmp = () => {
     inquirer
         .prompt([
